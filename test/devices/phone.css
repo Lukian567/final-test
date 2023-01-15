@@ -1,0 +1,64 @@
+header{
+    
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+
+
+.dreamshare{
+    position: absolute;
+    margin: 200px  0 0 ;
+    
+    
+}
+
+.aft{
+    margin: auto;
+}
+
+
+
+
+
+.container{
+    max-width: 1440px;
+
+}
+
+.main_photo {
+    flex-wrap: wrap;
+
+    
+}
+
+.shadow{
+    width: 100%;
+}
+
+
+
+.holidays_dreams{
+    font-size: 30px;
+    text-align: center;
+}
+
+.find_perfect {
+    font-size: 18px;
+}
+
+.cards{
+    display: block;
+    margin: 10px 0 0 0;
+    
+}
+
+.second_floor_steps{
+  margin-top: 10px;
+}
+
+.avatar_conteiner{
+    display: flex;
+    flex-direction: column;
+}

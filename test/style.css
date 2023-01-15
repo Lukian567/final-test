@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+}
+
+header {
+  width: 1440px;
+  height: 92px;
+  margin: _;
+  background: _;
+  display: flex;
+  align-items: center;
+  
+  width: 100%;
+}
+
+.conteiner {
+  width: 1440px;
+}
+
+.dreamshare {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 0 248px;
+  color: white;
+  font-family: "Montserrat ", sans-serif;
+}
+
+.log {
+  margin-left: 30px;
+}
+
+.sign {
+  width: 90px;
+  height: 36px;
+  margin: 0 0 0 30px;
+  background: _;
+  border-radius: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.aft {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 0 550px;
+  color: white;
+  display: flex;
+  font-family: "Montserrat ", sans-serif;
+  align-items: center;
+}
+
+.main_photo {
+  width: 1440px;
+  height: 700px;
+  margin: _;
+  background: url(./photos/Bitmap.png);
+  position: absolute;
+  flex-wrap: wrap;
+}
+
+.shadow {
+  width: 1440px;
+  height: 700px;
+  margin: _;
+  background: rgb(0, 0, 0);
+}
+
+.holidays_dreams {
+  font-size: 52px;
+  font-weight: 700;
+  margin: _;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat ", sans-serif;
+}
+
+.share {
+  margin-left: 40px;
+}
+
+.helping {
+  width: 100%;
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.find_perfect {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 25px 0 0 0;
+  color: white;
+  font-family: roboto;
+}
+
+.button {
+  width: 225px;
+  height: 40px;
+  margin: 30px 0 0 0;
+  background: #FF4E50;
+  font-size: 14px;
+  font-weight: 700;
+  margin: _;
+  color: white;
+  border-radius: 40px;
+  font-family: "Montserrat ", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.second_floor_block {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 109px;
+  align-items: flex-end;
+  margin-bottom: 35px;
+}
+
+.how_it_work {
+  font-size: 26px;
+  font-weight: 700;
+  margin: _;
+  color: #444444;
+  font-family: Montserrat;
+}
+
+.second_floor_steps {
+  width: 300px;
+  height: 400px;
+  margin: 0 20px 0 0;
+  background: _;
+  display: flex;
+}
+
+.cards {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+.one {
+  background-image: url(./photos/Step\ 1.png);
+  display: flex;
+  flex-direction: column;
+}
+
+.second_floor_steps_button {
+  width: 70px;
+  height: 20px;
+  margin: 200px 0 0 25px;
+  background: #FF4E50;
+  font-size: 10px;
+  font-weight: 400;
+  margin: _;
+  color: white;
+  font-family: Montserrat;
+  border-radius: 40px;
+  margin-top: 219px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+.second_floor_main_text {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 15px 0 0 25px;
+  color: white;
+  font-family: montserrat;
+}
+
+.second_floor_filling {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 25px 0 0 25px;
+  color: #E3E3E3;
+  font-family: Roboto;
+}
+
+.two {
+  background-image: url(./photos/Step\ 2.png);
+  display: flex;
+  flex-direction: column;
+}
+
+.three {
+  background-image: url(./photos/Step\ 3.png);
+  display: flex;
+  flex-direction: column;
+}
+
+.step2button {
+  margin-top: 250px;
+}
+
+.step2maintext {
+  margin-top: 25px;
+}
+
+.step2filling {
+  margin-top: 15px;
+  width: 250px;
+}
+
+.third_floor {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  margin: 0 0 0 51px;
+  background: url(./photos/avatar\ 1.png);
+  flex-wrap: wrap;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.music {
+  width: 28px;
+  height: 28px;
+  margin: _;
+  background: #FF4E50;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  border: 4px solid white;
+}
+
+.icon {
+  margin-left: 5.5px;
+}
+
+.avatar_conteiner {
+  width: 221px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.avatar_main_text {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 17px 0 0 0;
+  color: #444444;
+  font-family: montserrat;
+}
+
+.avatar_filling {
+  font-size: 14px;
+  font-weight: 300;
+  margin: _;
+  color: #666666;
+  font-family: roboto;
+}
+
+.second {
+  background-image: url(./photos/avatar\ 2.png);
+}
+
+.light_blue {
+  background-color: #19D4CA;
+}
+
+.third {
+  background-image: url(./photos/avatar\ 3.png);
+}
+
+.fourth {
+  background-image: url(./photos/avatar\ 4.png);
+}
+
+.yellow {
+  background-color: #FFA710;
+}
+
+.blue {
+  background-color: #667DF3;
+}
+
+.plane_margin {
+  margin-left: 4px;
+}
+
+.yellow_girl {
+  margin-left: 2px;
+}
+
+.orange_button {
+  width: 180px;
+  height: 40px;
+  margin: _;
+  background: _;
+  font-size: 14px;
+  font-weight: 700;
+  margin: _;
+  color: #FF4E50;
+  font-family: montserrat;
+  border-radius: 40px;
+  border: 2px solid #FF4E50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.shadow_sport {
+  width: 300px;
+  height: 310px;
+  margin: _;
+  background: rgba(0, 0, 0, 0.404);
+  font-size: 22px;
+  font-weight: 700;
+  margin: _;
+  color: white;
+  font-family: montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sport {
+  width: 300px;
+  height: 310px;
+  margin: _;
+  background: url(./photos/activities/sport\ 1.png);
+}
+
+.block_of_images {
+  display: flex;
+  width: 940px;
+  justify-content: space-between;
+}
+
+.fourth_floor {
+  display: flex;
+  width: 1440px;
+  justify-content: center;
+}
+
+.health {
+  background-image: url(./photos/activities/sport\ 2.png);
+}
+
+.extreme {
+  background-image: url(./photos/activities/sport\ 3.png);
+}
+
+.rome {
+  width: 620px;
+  background-image: url(./photos/activities/sport\ 5.png);
+}
+
+.rome_shadow {
+  width: 620px;
+}
+
+.mid {
+  margin-top: 20px;
+}
+
+.poker {
+  background-image: url(./photos/activities/sport\ 4.png);
+}
+
+.relax {
+  background-image: url(./photos/activities/sport\ 6.png);
+}
+
+.travel {
+  background-image: url(./photos/activities/sport\ 7.png);
+}
+
+.bottom_floor {
+  margin-top: -92px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 300;
+  margin: _;
+  color: #666666;
+  font-family: roboto;
+}
+
+.block {
+  width: 299px;
+  height: 40px;
+  margin: _;
+  background: _;
+  font-size: 14px;
+  font-weight: 300;
+  margin: _;
+  color: rgb(0, 0, 0);
+  border: 1px solid #D4D4D4;
+  border-radius: 3px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  margin-right: 10px;
+}
+
+.button_red {
+  width: 172.13px;
+  height: 40px;
+  margin: _;
+  background: #FF4E50;
+  font-size: 14px;
+  font-weight: 700;
+  margin: _;
+  color: white;
+  border-radius: 40px;
+  font-family: montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rectangle {
+  width: 1440px;
+  height: 2px;
+  margin: _;
+  background: rgb(255, 78, 80);
+}
+
+.names {
+  font-size: 14px;
+  font-weight: 700;
+  margin: _;
+  color: rgb(68, 68, 68);
+  width: 1440px;
+  display: flex;
+  margin-top: 36px;
+  font-family: montserrat;
+  justify-content: space-evenly;
+}
+
+.dream {
+  font-size: 16px;
+  font-weight: 400;
+  margin: _;
+  color: #FF4E50;
+}
+
+ul {
+  list-style: none;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 11px 0 50px 0;
+  color: #999999;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.des {
+  font-size: 10px;
+  font-weight: 700;
+  margin: _;
+  color: rgb(204, 204, 204);
+  margin-left: 35px;
+}
+
+.two_avatars{
+  display: flex;
+}
+
+/*# sourceMappingURL=style2.scss.map */
+
+/*# sourceMappingURL=style.css.map */

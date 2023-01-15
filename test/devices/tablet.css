@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+.dreamshare{
+    margin-left: 25%;
+}
+
+
+.aft{
+    margin-left: 25%;
+}
+
+.container{
+    max-width: 1440px;
+
+}
+
+.main_photo {
+    width: 100%;
+}
+
+.shadow{
+    width: 100%;
+}
+
+
+.second_floor_steps{
+    width: 236px;
+}
+
+.second_floor_block {
+    width: 100%;
+  }
+
+.cards{
+    width: 100%;
+}
+
+.two_avatars{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.third_floor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.avatar_filling{
+    margin-bottom: 50px;
+}
+
+.girl_camera{
+    margin-top: 30px;
+}
+
+.sport{
+    width: 236px;
+    margin-right: 20px;
+}
+
+.rome{
+    width: 492px;
+}
+
+.fourth_floor{
+    width: 100%;
+}
+
+.shadow_sport{
+    width: 236px;
+}
+
+.rome_shadow{
+    width: 492px;
+}
+
+.block_of_images {
+    display: flex;
+    width: 940px;
+
+    justify-content: center;
+}
+
+
+.rectangle{
+    width: 100%;
+}
+
+
+.names{
+    width: 100%;
+}

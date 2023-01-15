@@ -1,0 +1,14 @@
+@mixin blocks($block-width, $block-height, $block-margins, $block-bacgrounds){
+    width:$block-width ;
+    height:$block-height ;
+    margin:$block-margins ;
+    background:$block-bacgrounds ;
+}
+
+@mixin texts( $text-size, $text-weight, $text-margin,$text-color){
+ 
+    font-size: $text-size;
+    font-weight: $text-weight;
+    margin: $text-margin;
+    color: $text-color;
+}
